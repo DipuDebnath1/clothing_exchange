@@ -1,0 +1,16 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.Product = require('./product.model');
+module.exports.Favorite = require('./favorite.model');
+module.exports.Report = require('./report.model');
+module.exports.LegalNotice = require('./legalNotice.model');
+module.exports.Notification = require('./notification.model');
+module.exports.TermsAndCondition = require('./termsConditions.model');
+module.exports.AboutUs = require('./aboutUs.model');
+module.exports.PrivacyPolicy = require('./privacyPolicy.model');
+module.exports.Support = require('./support.model');
+module.exports.Transaction = require('./transaction.model');
+module.exports.Subscription = require('./subscription.model');
+module.exports.SubscriptionPurchase = require('./subscriptionPurchase.model');
+module.exports.ConversationPurchase = require('./conversation.model');
+module.exports.FAQ = require('./faq.model');
