@@ -5,13 +5,9 @@ const { roles } = require("../config/roles");
 const createUser = {
   body: Joi.object().keys({
     name: Joi.string().required(),
-    dateOfBirth: Joi.date().required(),
     email: Joi.string().required().email(),
     phone: Joi.string().required(),
-    password: Joi.string().required().min(8),
-    role: Joi.string()
-      .valid(...roles)
-      .required(),
+    password: Joi.string().required().min(8)
   }),
 };
 
